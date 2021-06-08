@@ -1,5 +1,10 @@
 import { calcHealthLevel, calcTileType } from './utils';
-
+import Daemon from "./Characters/Daemon";
+import Swordsman from './Characters/Swordsman';
+import Vampire from './Characters/Vampire';
+import Magician from './Characters/Magician';
+import Undead from './Characters/Undead';
+import Bowman from './Characters/Bowman';
 export default class GamePlay {
   constructor() {
     this.boardSize = 8;
